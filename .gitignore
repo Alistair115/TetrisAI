@@ -1,0 +1,14 @@
+# Ignore log and model output directories
+logs/
+models/
+
+# Ignore training artifacts
+*.csv
+*.pth
+*.pt
+
+# Ignore local notebooks checkpoints
+tetris_colab_notebook.ipynb_checkpoints/
+
+# macOS
+.DS_Store

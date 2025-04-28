@@ -1,0 +1,7 @@
+# hyperparameters & paths
+algo: RecurrentPPO
+policy: CnnLstmPolicy
+total_timesteps: 1000
+eval_freq: 500
+n_eval_episodes: 3
+save_freq: 1000
